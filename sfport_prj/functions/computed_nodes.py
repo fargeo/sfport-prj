@@ -49,7 +49,7 @@ class ComputedNodes(BaseFunction):
         if tile.nodegroup_id == self.contracts_nodegroup_id or tile.nodegroup_id == self.change_orders_nodegroup_id:
             for tile in self.get_tile_by_nodegroup_id(self.contracts_nodegroup_id):
                 sum_of_change_orders = self.sum_by_node_id(self.change_order_amount_node_id, parenttile_id=tile.tileid)
-                contingency = tile.data[self.contract_amount_node_id] * 1.1
+                contingency = tile.data[self.contract_amount_node_id] * 0.1
                 remaining_contingency_percentage = (contingency - sum_of_change_orders)/contingency
 
                 tile.data[self.contingency_calculated_node_id] = contingency
