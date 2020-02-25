@@ -1,2 +1,17 @@
 *.pyc
 .yarn-integrity
+sfport_prj/media/packages
+sfport_prj/logs/*.log
+sfport_prj/uploadedfiles
+sfport_prj/export_deliverables/*
+arches.log
+*.sublime*
+sfport_prj/settings_local.py
+.DS_Store
+sfport_prj/tileserver/cache
+*.djcache
+sfport_prj/node_modules
+.vscode/
+Procfile
+.atom-build.yml
+celerybeat-schedule
