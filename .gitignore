@@ -15,3 +15,4 @@ sfport_prj/node_modules
 Procfile
 .atom-build.yml
 celerybeat-schedule
+sfport-prj/static/
