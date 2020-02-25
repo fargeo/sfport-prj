@@ -1,0 +1,41 @@
+{% load i18n %}
+
+<div class="pad-all">
+    <div class="resource-grid-title">{% trans "Project Review" %}</div>
+    <div class="recent-additions-container">
+    <!-- ko if: dataReady -->
+    <div>Toggle column: <br>
+        <button data-bind="click: function() { toggle(0) }, style:{'color': columnVis[0]() === true ? '#222' : '#999'}">{% trans "Project and Description" %}</button>
+        <button data-bind="click: function() { toggle(1) }, style:{'color': columnVis[1]() === true ? '#222' : '#999'}">{% trans "Port Facility" %}</button>
+        <button data-bind="click: function() { toggle(2) }, style:{'color': columnVis[2]() === true ? '#222' : '#999'}">{% trans "Contract #" %}</button>
+        <button data-bind="click: function() { toggle(3) }, style:{'color': columnVis[3]() === true ? '#222' : '#999'}">{% trans "Project Engineers" %}</button>
+        <button data-bind="click: function() { toggle(4) }, style:{'color': columnVis[4]() === true ? '#222' : '#999'}">{% trans "Project Managers" %}</button>
+        <button data-bind="click: function() { toggle(5) }, style:{'color': columnVis[5]() === true ? '#222' : '#999'}">{% trans "Design Status" %}</button>
+        <button data-bind="click: function() { toggle(6) }, style:{'color': columnVis[6]() === true ? '#222' : '#999'}">{% trans "Construction Status" %}</button>
+        <button data-bind="click: function() { toggle(7) }, style:{'color': columnVis[7]() === true ? '#222' : '#999'}">{% trans "Building Permit" %}</button>
+        <button data-bind="click: function() { toggle(8) }, style:{'color': columnVis[8]() === true ? '#222' : '#999'}">{% trans "Encroachment Permit" %}</button>
+        <button data-bind="click: function() { toggle(9) }, style:{'color': columnVis[9]() === true ? '#222' : '#999'}">{% trans "Environmental Specifications" %}</button>
+        <button data-bind="click: function() { toggle(10)}, style:{'color': columnVis[10]() === true ? '#222' : '#999'}">{% trans "Environmental Approval" %}</button>
+        <button data-bind="click: function() { toggle(11)}, style:{'color': columnVis[11]() === true ? '#222' : '#999'}">{% trans "Planning Approval" %}</button>
+    </div> <br>
+      <table data-bind="datatable: tableConfig" class="table table-striped table-bordered" cellspacing="0" width="100%">
+          <thead>
+              <tr>
+                  <th>{% trans "Project and Description" %}</th>
+                  <th>{% trans "Port Facility" %}</th>
+                  <th>{% trans "Contract #" %}</th>
+                  <th>{% trans "Project Engineers" %}</th>
+                  <th>{% trans "Project Managers" %}</th>
+                  <th>{% trans "Design Status" %}</th>
+                  <th>{% trans "Construction Status" %}</th>
+                  <th>{% trans "Building Permit" %}</th>
+                  <th>{% trans "Encroachment Permit" %}</th>
+                  <th>{% trans "Environmental Specifications" %}</th>
+                  <th>{% trans "Environmental Approval" %}</th>
+                  <th>{% trans "Planning Approval" %}</th>
+              </tr>
+          </thead>
+      </table>
+    <!-- /ko -->
+    </div>
+</div>
