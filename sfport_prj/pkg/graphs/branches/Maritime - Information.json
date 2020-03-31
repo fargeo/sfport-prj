@@ -1,0 +1,263 @@
+{
+    "graph": [
+        {
+            "author": "Adam Lodge", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "0a82c57a-b4fe-11e7-ac4a-0242ac110004", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Comments", 
+                    "nodegroup_id": "0a82bfda-b4fe-11e7-ac4a-0242ac110004", 
+                    "sortorder": 1, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "0a82cd54-b4fe-11e7-ac4a-0242ac110004", 
+                    "description": "Represents a node and node type pairing", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "is_editable": true, 
+                    "name": "Contacts", 
+                    "nodegroup_id": "0a82c8b8-b4fe-11e7-ac4a-0242ac110004", 
+                    "sortorder": 0, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "0a82bd3c-b4fe-11e7-ac4a-0242ac110004", 
+                    "description": "", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Maritime - Information", 
+                    "nodegroup_id": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "0a82cd54-b4fe-11e7-ac4a-0242ac110004", 
+                    "config": {
+                        "label": "Contact Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "0a82d1d2-b4fe-11e7-ac4a-0242ac110004", 
+                    "label": "Contact Name", 
+                    "node_id": "0a82c8b8-b4fe-11e7-ac4a-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "0a82cd54-b4fe-11e7-ac4a-0242ac110004", 
+                    "config": {
+                        "label": "Contact Type", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "0a82d312-b4fe-11e7-ac4a-0242ac110004", 
+                    "label": "Contact Type", 
+                    "node_id": "0a82cff2-b4fe-11e7-ac4a-0242ac110004", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000018"
+                }, 
+                {
+                    "card_id": "0a82c57a-b4fe-11e7-ac4a-0242ac110004", 
+                    "config": {
+                        "label": "Maritime Comments", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "0a82d434-b4fe-11e7-ac4a-0242ac110004", 
+                    "label": "Maritime Comments", 
+                    "node_id": "0a82bfda-b4fe-11e7-ac4a-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004", 
+                    "edgeid": "0a82e082-b4fe-11e7-ac4a-0242ac110004", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "0a82c8b8-b4fe-11e7-ac4a-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004", 
+                    "edgeid": "0a82dcea-b4fe-11e7-ac4a-0242ac110004", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "0a82bfda-b4fe-11e7-ac4a-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "0a82c8b8-b4fe-11e7-ac4a-0242ac110004", 
+                    "edgeid": "0a82dea2-b4fe-11e7-ac4a-0242ac110004", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "0a82cff2-b4fe-11e7-ac4a-0242ac110004"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+            "iconclass": "", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Maritime - Information", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "0a82c8b8-b4fe-11e7-ac4a-0242ac110004", 
+                    "parentnodegroup_id": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "0a82bfda-b4fe-11e7-ac4a-0242ac110004", 
+                    "parentnodegroup_id": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004"
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "d2a67e91-2a9a-4df8-b9f5-cc6c8368ca13", 
+                                "selected": false, 
+                                "text": "Primary"
+                            }, 
+                            {
+                                "id": "8c4505d0-7756-4c15-a147-95d23c5c91e7", 
+                                "selected": false, 
+                                "text": "Secondary"
+                            }
+                        ], 
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "domain-value-list", 
+                    "description": "", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Contact Type", 
+                    "nodegroup_id": "0a82c8b8-b4fe-11e7-ac4a-0242ac110004", 
+                    "nodeid": "0a82cff2-b4fe-11e7-ac4a-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Maritime Information", 
+                    "nodegroup_id": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004", 
+                    "nodeid": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Maritime Comments", 
+                    "nodegroup_id": "0a82bfda-b4fe-11e7-ac4a-0242ac110004", 
+                    "nodeid": "0a82bfda-b4fe-11e7-ac4a-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "", 
+                    "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Contact Name", 
+                    "nodegroup_id": "0a82c8b8-b4fe-11e7-ac4a-0242ac110004", 
+                    "nodeid": "0a82c8b8-b4fe-11e7-ac4a-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }
+            ], 
+            "ontology_id": null, 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "0a82b3fa-b4fe-11e7-ac4a-0242ac110004", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Maritime Information", 
+                "nodegroup_id": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004", 
+                "nodeid": "0a82b6e8-b4fe-11e7-ac4a-0242ac110004", 
+                "ontologyclass": null
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "os": "Linux", 
+        "os version": "4.9.43-17.39.amzn1.x86_64"
+    }
+}

@@ -1,0 +1,121 @@
+{% extends "views/components/cards/default.htm" %}
+{% load i18n %}
+
+{% block editor_tree_node_content %}
+Encumbrances and Commitments: $<span data-bind="text: self.encumbrances"></span>
+{% endblock editor_tree_node_content %}
+
+{% block form_widgets %}
+<form class="widgets" style="margin-bottom: 20px;">
+    <div>
+        <strong>Encumbrances and Commitments:</strong>
+        $<span data-bind="text: self.encumbrances"></span>
+    </div>
+    <div>
+        <strong>Remaining Balance:</strong>
+        $<span data-bind="text: self.balance"></span>
+    </div>
+    <!-- <div data-bind="foreach: {
+            data:card.widgets, as: 'widget'
+        }">
+        <div data-bind='component: {
+            name: self.form.widgetLookup[widget.widget_id()].name,
+            params: {
+                formData: self.tile.formData,
+                tile: self.tile,
+                form: self.form,
+                config: widget.configJSON,
+                label: widget.label(),
+                value: self.tile.data[widget.node_id()],
+                node: self.form.nodeLookup[widget.node_id()],
+                expanded: self.expanded,
+                graph: self.form.graph,
+                type: "resource-editor"
+            }
+        }, css:{ "active": widget.selected, "hover": widget.hovered, "widget-preview": self.preview
+    }, click: function(data, e) { if (!widget.selected() && self.preview) {widget.selected(true);}
+}, event: { mouseover: function(){ if (self.preview){widget.hovered(true) } }, mouseout: function(){ if (self.preview){widget.hovered(null)} } }, visible: widget.visible'></div>
+    </div> -->
+</form>
+{% endblock form_widgets %}
+
+{% block report_widgets %}
+<div class="rp-report-tile" data-bind="attr: { id: tile.tileid }">
+    <!-- ko if: tile.provisionaledits() !== null && tile.userisreviewer === false -->
+    <div class="report-card-provisional-flag">{% trans 'These data are provisional and pending review' %}</div>
+    <!--/ko-->
+
+    <dl class="dl-horizontal" data-bind="css: {'provisional': tile.provisionaledits() !== null && tile.userisreviewer === false}">
+        <dt>Encumbrances and Commitments</dt>
+        <dd class="number-widget-report">
+            $<div data-bind="text: self.encumbrances"></div>
+        </dd>
+        <dt>Remaining Balance</dt>
+        <dd class="number-widget-report">
+            $<div data-bind="text: self.balance"></div>
+        </dd>
+    </dl>
+</div>
+{% endblock report_widgets %}
+
+{% block form_cards %}
+<ul class="card-summary-section" data-bind="css: {disabled: !tile.tileid}">
+    <!-- ko foreach: { data: tile.cards, as: 'card' } -->
+    <li class="card-summary">
+        <a href="javascript:void(0)" data-bind="click: function () {
+            if (card.parent.tileid) {
+                card.canAdd() ? card.selected(true) : card.tiles()[0].selected(true);
+            }
+        }">
+            <h4 class="card-summary-name" style='color: #2f527a'>
+                <span data-bind="text: card.model.name"></span>
+                <i class="fa fa-plus-circle card-summary-add" data-bind="click: function(){$parent.createParentAndChild($parent.tile, card)}"></i>
+            </h4>
+        </a>
+        <ul class="tile-summary-item" data-bind="foreach: {
+                data: card.tiles,
+                as: 'tile'
+            }">
+            <li class="tile-summary">
+                <a href="#" data-bind="click: function () { tile.selected(true) }">
+                    <!-- ko if: card.widgets().length > 0 -->
+                    <span data-bind="text: card.widgets()[0].label || card.model.name" class="tile-summary-label"></span>:
+                    <div style="display: inline;" data-bind="component: {
+                        name: self.form.widgetLookup[card.widgets()[0].widget_id()].name,
+                        params: {
+                            tile: tile,
+                            node: self.form.nodeLookup[card.widgets()[0].node_id()],
+                            config: self.form.widgetLookup[card.widgets()[0].widget_id()].config,
+                            label: self.form.widgetLookup[card.widgets()[0].widget_id()].label,
+                            value: tile.data[card.widgets()[0].node_id()],
+                            type: 'resource-editor',
+                            state: 'display_value'
+                        }
+                    }"></div>
+                    <!-- /ko -->
+                    <!-- ko if: card.widgets().length === 0 -->
+                    <span data-bind="text: card.model.name"></span>
+                    <!-- /ko -->
+                </a>
+            </li>
+        </ul>
+    </li>
+    <!-- /ko -->
+</ul>
+{% endblock form_cards %}
+
+{% block form_buttons %}
+<div class="install-buttons">
+    <!-- ko if: tile.tileid -->
+    <button class="btn btn-shim btn-labeled btn-lg fa fa-trash" data-bind="click: function () { self.form.deleteTile(tile); }, css: {disabled: (!card.isWritable && !self.preview), 'btn-warning': card.isWritable }">{% trans 'Delete this record' %}</button>
+    <!-- /ko -->
+    <!-- ko if: tile.dirty() -->
+    <!-- ko if: provisionalTileViewModel && !provisionalTileViewModel.tileIsFullyProvisional() && card.isWritable -->
+    <button class="btn btn-shim btn-danger btn-labeled btn-lg fa fa-times" data-bind="click: tile.reset">{% trans 'Cancel edit' %}</button>
+    <!-- /ko -->
+        <!-- ko if: tile.tileid -->
+        <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: function () { self.form.saveTile(tile); }, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Save edit' %}</button>
+        <!-- /ko -->
+    <!-- /ko -->
+</div>
+{% endblock form_buttons %}

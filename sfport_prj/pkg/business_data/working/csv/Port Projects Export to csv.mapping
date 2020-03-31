@@ -1,0 +1,767 @@
+{
+    "resource_model_id": "5e0a6e73-a553-11e7-8707-f45c89b6558b", 
+    "resource_model_name": "Port Projects", 
+    "nodes": [
+        {
+            "arches_nodeid": "effaea60-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "ADA Review Comment", 
+            "file_field_name": "ADA Review Comment", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effadd40-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "ADA Review Passed", 
+            "file_field_name": "ADA Review Passed", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effad93a-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "ADA Review Requirement", 
+            "file_field_name": "ADA Review Requirement", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9e6fa-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Additional Info", 
+            "file_field_name": "Additional Info", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "cbcba67a-cf25-11e7-b4c3-0242ac110004", 
+            "arches_node_name": "Agreement Number", 
+            "file_field_name": "Agreement Number", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e25c4e58-cf25-11e7-b170-0242ac110004", 
+            "arches_node_name": "Appeal Deadline", 
+            "file_field_name": "Appeal Deadline", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c289e0f4-cf25-11e7-89df-0242ac110004", 
+            "arches_node_name": "Approval Date", 
+            "file_field_name": "Approval Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c289e2fc-cf25-11e7-89df-0242ac110004", 
+            "arches_node_name": "Approved By", 
+            "file_field_name": "Approved By", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d7516d90-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Approved Date", 
+            "file_field_name": "Approved Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9a1f4-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Background", 
+            "file_field_name": "Background", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d751754c-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "BCDC Date Submitted", 
+            "file_field_name": "BCDC Date Submitted", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d7515daa-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "BCDC Status", 
+            "file_field_name": "BCDC Status", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d75163ae-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "BCDC Tyoe", 
+            "file_field_name": "BCDC Tyoe", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d5fae444-cf25-11e7-8cf0-0242ac110004", 
+            "arches_node_name": "Budget Amount", 
+            "file_field_name": "Budget Amount", 
+            "data_type": "number", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d5fae6ce-cf25-11e7-8cf0-0242ac110004", 
+            "arches_node_name": "Budget Date", 
+            "file_field_name": "Budget Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d5fae8ea-cf25-11e7-8cf0-0242ac110004", 
+            "arches_node_name": "Budget Phase", 
+            "file_field_name": "Budget Phase", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effae15a-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "Building Permit Comment", 
+            "file_field_name": "Building Permit Comment", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effae790-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "Building Permit Issued", 
+            "file_field_name": "Building Permit Issued", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effae362-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "Building Permit Number", 
+            "file_field_name": "Building Permit Number", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effadb42-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "Building Permit Requirement", 
+            "file_field_name": "Building Permit Requirement", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e25c3a80-cf25-11e7-b170-0242ac110004", 
+            "arches_node_name": "CEQA Action", 
+            "file_field_name": "CEQA Action", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e25c4c5a-cf25-11e7-b170-0242ac110004", 
+            "arches_node_name": "CEQA Action Date", 
+            "file_field_name": "CEQA Action Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e25c525e-cf25-11e7-b170-0242ac110004", 
+            "arches_node_name": "CEQA Determination Note", 
+            "file_field_name": "CEQA Determination Note", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e25c49f8-cf25-11e7-b170-0242ac110004", 
+            "arches_node_name": "CEQA Information", 
+            "file_field_name": "CEQA Information", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e25c5060-cf25-11e7-b170-0242ac110004", 
+            "arches_node_name": "CEQA Requirement", 
+            "file_field_name": "CEQA Requirement", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3ddb0-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Change Order Amount", 
+            "file_field_name": "Change Order Amount", 
+            "data_type": "number", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3d4c8-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Change Order Date", 
+            "file_field_name": "Change Order Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3d93c-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Change Order Reason", 
+            "file_field_name": "Change Order Reason", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3d22a-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Changer Order Number", 
+            "file_field_name": "Changer Order Number", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "dcafa112-cf25-11e7-bba8-0242ac110004", 
+            "arches_node_name": "Construction Status", 
+            "file_field_name": "Construction Status", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "dcafa720-cf25-11e7-bba8-0242ac110004", 
+            "arches_node_name": "Construction Status Date", 
+            "file_field_name": "Construction Status Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "dcafa522-cf25-11e7-bba8-0242ac110004", 
+            "arches_node_name": "Construction Status Note", 
+            "file_field_name": "Construction Status Note", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "cbcb9e8c-cf25-11e7-b4c3-0242ac110004", 
+            "arches_node_name": "Contact Name", 
+            "file_field_name": "Contact Name", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "8d700114-d704-11e7-933e-0242ac110004", 
+            "arches_node_name": "Contact Name", 
+            "file_field_name": "Contact Name", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "7ff8e384-d704-11e7-9573-0242ac110004", 
+            "arches_node_name": "Contact Name", 
+            "file_field_name": "Contact Name", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c289c5a6-cf25-11e7-89df-0242ac110004", 
+            "arches_node_name": "Contacts", 
+            "file_field_name": "Contacts", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "8d701e42-d704-11e7-933e-0242ac110004", 
+            "arches_node_name": "Contact Type", 
+            "file_field_name": "Contact Type", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "7ff8f2ac-d704-11e7-9573-0242ac110004", 
+            "arches_node_name": "Contact Type", 
+            "file_field_name": "Contact Type", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "cbcbae0e-cf25-11e7-b4c3-0242ac110004", 
+            "arches_node_name": "Contact Type", 
+            "file_field_name": "Contact Type", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3db76-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Contingency (Calculated)", 
+            "file_field_name": "Contingency (Calculated)", 
+            "data_type": "number", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3e21a-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Contract Amount", 
+            "file_field_name": "Contract Amount", 
+            "data_type": "number", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3d702-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Contract Date", 
+            "file_field_name": "Contract Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3e65c-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Contract Number", 
+            "file_field_name": "Contract Number", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9da8e-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Date Due", 
+            "file_field_name": "Date Due", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "ddec6204-cf25-11e7-9814-0242ac110004", 
+            "arches_node_name": "Date Type", 
+            "file_field_name": "Date Type", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d7516b9c-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Design Review Comments", 
+            "file_field_name": "Design Review Comments", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d751733a-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Design Review Status", 
+            "file_field_name": "Design Review Status", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d751699e-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Design Review Type", 
+            "file_field_name": "Design Review Type", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "dcafa31a-cf25-11e7-bba8-0242ac110004", 
+            "arches_node_name": "Design Status", 
+            "file_field_name": "Design Status", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "dcaf9c76-cf25-11e7-bba8-0242ac110004", 
+            "arches_node_name": "Design Status Date", 
+            "file_field_name": "Design Status Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "dcaf9eec-cf25-11e7-bba8-0242ac110004", 
+            "arches_node_name": "Design Status Note", 
+            "file_field_name": "Design Status Note", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e25c421e-cf25-11e7-b170-0242ac110004", 
+            "arches_node_name": "Determination", 
+            "file_field_name": "Determination", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d7515b8e-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Due Date", 
+            "file_field_name": "Due Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effae59c-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "Encroachment Permit Comment", 
+            "file_field_name": "Encroachment Permit Comment", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effad2a0-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "Encroachment Permit Issued", 
+            "file_field_name": "Encroachment Permit Issued", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effad516-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "Encroachment Permit Number", 
+            "file_field_name": "Encroachment Permit Number", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effad73c-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "Encroachment Permit Requirement", 
+            "file_field_name": "Encroachment Permit Requirement", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "b6e1d66e-d702-11e7-a11b-0242ac110004", 
+            "arches_node_name": "Encumbrances and Commitments", 
+            "file_field_name": "Encumbrances and Commitments", 
+            "data_type": "number", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "ddec5138-cf25-11e7-9814-0242ac110004", 
+            "arches_node_name": "End Date", 
+            "file_field_name": "End Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d75165a2-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Environmental Permit Notes", 
+            "file_field_name": "Environmental Permit Notes", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d7515904-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Environmental Permit Status", 
+            "file_field_name": "Environmental Permit Status", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d7515fb2-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Environmental Permit Type", 
+            "file_field_name": "Environmental Permit Type", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c289ded8-cf25-11e7-89df-0242ac110004", 
+            "arches_node_name": "Estimated Deadline", 
+            "file_field_name": "Estimated Deadline", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c291a0c2-dab1-11e7-9b62-0242ac110004", 
+            "arches_node_name": "Facility Code(s)", 
+            "file_field_name": "Facility Code(s)", 
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d1c04c48-cf25-11e7-8e2c-0242ac110004", 
+            "arches_node_name": "File", 
+            "file_field_name": "File", 
+            "data_type": "file-list", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d1c04ebe-cf25-11e7-8e2c-0242ac110004", 
+            "arches_node_name": "File Description", 
+            "file_field_name": "File Description", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e7025ede-cf25-11e7-90e3-0242ac110004", 
+            "arches_node_name": "Funding Amount", 
+            "file_field_name": "Funding Amount", 
+            "data_type": "number", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e7025c5e-cf25-11e7-90e3-0242ac110004", 
+            "arches_node_name": "Funding Source", 
+            "file_field_name": "Funding Source", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c291a2e8-dab1-11e7-9b62-0242ac110004", 
+            "arches_node_name": "Geometry", 
+            "file_field_name": "Geometry", 
+            "data_type": "geojson-feature-collection", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d75161ba-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Historical Permit Status", 
+            "file_field_name": "Historical Permit Status", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d7516796-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Historical Permit Type", 
+            "file_field_name": "Historical Permit Type", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a98e4e-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Identifier", 
+            "file_field_name": "Identifier", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9e902-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Identifier Type", 
+            "file_field_name": "Identifier Type", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9ecfe-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Is Capitol Project", 
+            "file_field_name": "Is Capitol Project", 
+            "data_type": "boolean", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "cbcbb084-cf25-11e7-b4c3-0242ac110004", 
+            "arches_node_name": "Leasehold Number", 
+            "file_field_name": "Leasehold Number", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "8d6ff598-d704-11e7-933e-0242ac110004", 
+            "arches_node_name": "Maintenance Comments", 
+            "file_field_name": "Maintenance Comments", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "7ff8d9d4-d704-11e7-9573-0242ac110004", 
+            "arches_node_name": "Maritime Comments", 
+            "file_field_name": "Maritime Comments", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9b310-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Name", 
+            "file_field_name": "Name", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e368c682-cf25-11e7-a43f-0242ac110004", 
+            "arches_node_name": "Narrative Update", 
+            "file_field_name": "Narrative Update", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "e368ce3e-cf25-11e7-a43f-0242ac110004", 
+            "arches_node_name": "Narrative Update Date", 
+            "file_field_name": "Narrative Update Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3dfe0-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Percentage of Contingency Used (Calculated)", 
+            "file_field_name": "Percentage of Contingency Used (Calculated)", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "ddec6484-cf25-11e7-9814-0242ac110004", 
+            "arches_node_name": "Phase", 
+            "file_field_name": "Phase", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c289dc76-cf25-11e7-89df-0242ac110004", 
+            "arches_node_name": "Planning Comments", 
+            "file_field_name": "Planning Comments", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9aa32-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Project Description", 
+            "file_field_name": "Project Description", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9c328-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Project Issue", 
+            "file_field_name": "Project Issue", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9e4de-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Project Issue Type", 
+            "file_field_name": "Project Issue Type", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a99844-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Project Lead", 
+            "file_field_name": "Project Lead", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "cbcb9568-cf25-11e7-b4c3-0242ac110004", 
+            "arches_node_name": "Real Estate Comments", 
+            "file_field_name": "Real Estate Comments", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "b6e1d8bc-d702-11e7-a11b-0242ac110004", 
+            "arches_node_name": "Remaining Balance", 
+            "file_field_name": "Remaining Balance", 
+            "data_type": "number", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d7512696-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Required Environmental Specifications", 
+            "file_field_name": "Required Environmental Specifications", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "effadf3e-cf25-11e7-ae2e-0242ac110004", 
+            "arches_node_name": "Review Reference ID", 
+            "file_field_name": "Review Reference ID", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9d2be-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Sponsor(s)", 
+            "file_field_name": "Sponsor(s)", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9eb00-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Sponsorship Description", 
+            "file_field_name": "Sponsorship Description", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d742f0f2-cf2b-11e7-a8d0-0242ac110004", 
+            "arches_node_name": "Staff Name", 
+            "file_field_name": "Staff Name", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d742f354-cf2b-11e7-a8d0-0242ac110004", 
+            "arches_node_name": "Staff Type", 
+            "file_field_name": "Staff Type", 
+            "data_type": "domain-value-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "ddec66a0-cf25-11e7-9814-0242ac110004", 
+            "arches_node_name": "Start Date", 
+            "file_field_name": "Start Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "7255cc6e-cf2b-11e7-9e18-0242ac110004", 
+            "arches_node_name": "Status", 
+            "file_field_name": "Status", 
+            "data_type": "domain-value", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "7255dcfe-cf2b-11e7-9e18-0242ac110004", 
+            "arches_node_name": "Status Date", 
+            "file_field_name": "Status Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "7255df74-cf2b-11e7-9e18-0242ac110004", 
+            "arches_node_name": "Status Description", 
+            "file_field_name": "Status Description", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9bb26-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Strategic Alignment", 
+            "file_field_name": "Strategic Alignment", 
+            "data_type": "concept-list", 
+            "concept_export_value": "label", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c8a9e27c-cf25-11e7-8708-0242ac110004", 
+            "arches_node_name": "Strategic Alignment Statement", 
+            "file_field_name": "Strategic Alignment Statement", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "d75170ba-cf25-11e7-8171-0242ac110004", 
+            "arches_node_name": "Submitted Date", 
+            "file_field_name": "Submitted Date", 
+            "data_type": "date", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "0ae3e440-cf2a-11e7-a985-0242ac110004", 
+            "arches_node_name": "Vendor Name", 
+            "file_field_name": "Vendor Name", 
+            "data_type": "string", 
+            "export": true
+        }, 
+        {
+            "arches_nodeid": "c2919e06-dab1-11e7-9b62-0242ac110004", 
+            "arches_node_name": "Written Location", 
+            "file_field_name": "Written Location", 
+            "data_type": "string", 
+            "export": true
+        }
+    ]
+}

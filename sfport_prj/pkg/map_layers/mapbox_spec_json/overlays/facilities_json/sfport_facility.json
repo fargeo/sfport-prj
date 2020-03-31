@@ -1,0 +1,18 @@
+{
+    "name": "sfport facility geojson",
+    "sources": {
+        "Facilities": {
+            "type": "geojson",
+            "data": "https://services1.arcgis.com/OMlDo1M4huclX8c7/arcgis/rest/services/FacilityLocationCodeAreas/FeatureServer/0/query?where=1%3D1&outfields=*&f=geojson&outSR=4326"
+        }
+    },
+    "layers": [{
+        "id": "Facilities",
+        "type": "fill",
+        "source": "Facilities",
+        "paint": {
+            "fill-color": "rgba(204,204,204,0.25)",
+            "fill-outline-color": "rgba(70,70,70,0.5)"
+        }
+    }]
+}

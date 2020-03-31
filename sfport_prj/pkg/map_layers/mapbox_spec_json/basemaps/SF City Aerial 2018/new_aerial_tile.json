@@ -1,0 +1,15 @@
+{
+    "version": 8,
+    "name": "SF City Aerial 2018",
+    "sources": {
+        "raster-tiles": {
+          "type": "raster",
+          "tiles": ["http://tile.sfgis-svc.sfgov.org/v2/p2018/{z}/{x}/{y}.png"]
+        }
+    },
+    "layers": [{
+        "id": "SFCity_aerial_2018",
+        "type": "raster",
+        "source": "raster-tiles"
+    }]
+}

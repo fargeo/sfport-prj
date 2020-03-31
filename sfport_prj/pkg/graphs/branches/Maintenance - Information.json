@@ -1,0 +1,263 @@
+{
+    "graph": [
+        {
+            "author": "Adam Lodge", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "f1f7381c-b4fb-11e7-a196-0242ac110004", 
+                    "description": "", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Maintenance - Information", 
+                    "nodegroup_id": "f1f73196-b4fb-11e7-a196-0242ac110004", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "f1f74aaa-b4fb-11e7-a196-0242ac110004", 
+                    "description": "Represents a node and node type pairing", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "is_editable": true, 
+                    "name": "Contacts", 
+                    "nodegroup_id": "f1f74532-b4fb-11e7-a196-0242ac110004", 
+                    "sortorder": 0, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "f1f74258-b4fb-11e7-a196-0242ac110004", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Maintenance Comments", 
+                    "nodegroup_id": "f1f73b82-b4fb-11e7-a196-0242ac110004", 
+                    "sortorder": 1, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "f1f74258-b4fb-11e7-a196-0242ac110004", 
+                    "config": {
+                        "label": "Maintenance Comments", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "f1f75a36-b4fb-11e7-a196-0242ac110004", 
+                    "label": "Maintenance Comments", 
+                    "node_id": "f1f73b82-b4fb-11e7-a196-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                }, 
+                {
+                    "card_id": "f1f74aaa-b4fb-11e7-a196-0242ac110004", 
+                    "config": {
+                        "label": "Contact Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "f1f75cd4-b4fb-11e7-a196-0242ac110004", 
+                    "label": "Contact Name", 
+                    "node_id": "f1f74532-b4fb-11e7-a196-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "f1f74aaa-b4fb-11e7-a196-0242ac110004", 
+                    "config": {
+                        "label": "Contact Type", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "f1f75e00-b4fb-11e7-a196-0242ac110004", 
+                    "label": "Contact Type", 
+                    "node_id": "f1f755e0-b4fb-11e7-a196-0242ac110004", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000018"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "f1f74532-b4fb-11e7-a196-0242ac110004", 
+                    "edgeid": "f1f76e7c-b4fb-11e7-a196-0242ac110004", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "f1f755e0-b4fb-11e7-a196-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "f1f73196-b4fb-11e7-a196-0242ac110004", 
+                    "edgeid": "f1f77052-b4fb-11e7-a196-0242ac110004", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "f1f73b82-b4fb-11e7-a196-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "f1f73196-b4fb-11e7-a196-0242ac110004", 
+                    "edgeid": "f1f771f6-b4fb-11e7-a196-0242ac110004", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "f1f74532-b4fb-11e7-a196-0242ac110004"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+            "iconclass": "", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Maintenance - Information", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f1f73b82-b4fb-11e7-a196-0242ac110004", 
+                    "parentnodegroup_id": "f1f73196-b4fb-11e7-a196-0242ac110004"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f1f73196-b4fb-11e7-a196-0242ac110004", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f1f74532-b4fb-11e7-a196-0242ac110004", 
+                    "parentnodegroup_id": "f1f73196-b4fb-11e7-a196-0242ac110004"
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "d2a67e91-2a9a-4df8-b9f5-cc6c8368ca13", 
+                                "selected": false, 
+                                "text": "Primary"
+                            }, 
+                            {
+                                "id": "8c4505d0-7756-4c15-a147-95d23c5c91e7", 
+                                "selected": false, 
+                                "text": "Secondary"
+                            }
+                        ], 
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "domain-value-list", 
+                    "description": "", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Contact Type", 
+                    "nodegroup_id": "f1f74532-b4fb-11e7-a196-0242ac110004", 
+                    "nodeid": "f1f755e0-b4fb-11e7-a196-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Maintenance Information", 
+                    "nodegroup_id": "f1f73196-b4fb-11e7-a196-0242ac110004", 
+                    "nodeid": "f1f73196-b4fb-11e7-a196-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Maintenance Comments", 
+                    "nodegroup_id": "f1f73b82-b4fb-11e7-a196-0242ac110004", 
+                    "nodeid": "f1f73b82-b4fb-11e7-a196-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "", 
+                    "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Contact Name", 
+                    "nodegroup_id": "f1f74532-b4fb-11e7-a196-0242ac110004", 
+                    "nodeid": "f1f74532-b4fb-11e7-a196-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }
+            ], 
+            "ontology_id": null, 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "f1f72e4e-b4fb-11e7-a196-0242ac110004", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Maintenance Information", 
+                "nodegroup_id": "f1f73196-b4fb-11e7-a196-0242ac110004", 
+                "nodeid": "f1f73196-b4fb-11e7-a196-0242ac110004", 
+                "ontologyclass": null
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "os": "Linux", 
+        "os version": "4.9.43-17.39.amzn1.x86_64"
+    }
+}

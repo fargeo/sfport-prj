@@ -1,0 +1,98 @@
+{
+    "name": "sf port facilities vt",
+    "sources": {
+        "esri": {
+          "type": "vector",
+          "tiles": ["https://tiles.arcgis.com/tiles/OMlDo1M4huclX8c7/arcgis/rest/services/SF_Port_Lease_Parcel/VectorTileServer/tile/{z}/{y}/{x}.pbf"]
+        }
+    },
+    "layers": [
+    {
+      "id": "vw_leaseparcels_propworks/Leased/1",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "vw_leaseparcels_propworks",
+      "filter": [
+        "==",
+        "_symbol",
+        0
+      ],
+      "layout": {},
+      "paint": {
+        "fill-color": "rgba(255,170,0,0.25)"
+      }
+    },
+    {
+      "id": "vw_leaseparcels_propworks/Leased/0",
+      "type": "line",
+      "source": "esri",
+      "source-layer": "vw_leaseparcels_propworks",
+      "filter": [
+        "==",
+        "_symbol",
+        0
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "rgba(255,170,0,0.75)",
+        "line-width": 2
+      }
+    },
+    {
+      "id": "vw_leaseparcels_propworks/Not Leased/0",
+      "type": "line",
+      "source": "esri",
+      "source-layer": "vw_leaseparcels_propworks",
+      "filter": [
+        "==",
+        "_symbol",
+        1
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "rgba(130,130,130,0.5)",
+        "line-width": 2
+      }
+    },
+    {
+      "id": "vw_leaseparcels_propworks/<all other values>/1",
+      "type": "fill",
+      "source": "esri",
+      "source-layer": "vw_leaseparcels_propworks",
+      "filter": [
+        "==",
+        "_symbol",
+        2
+      ],
+      "layout": {},
+      "paint": {
+        "fill-color": "#B2B2B2"
+      }
+    },
+    {
+      "id": "vw_leaseparcels_propworks/<all other values>/0",
+      "type": "line",
+      "source": "esri",
+      "source-layer": "vw_leaseparcels_propworks",
+      "filter": [
+        "==",
+        "_symbol",
+        2
+      ],
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#FF0000",
+        "line-width": 2.66667
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{% extends "views/components/cards/default.htm" %}
+{% load i18n %}
+
+{% block form_cards %}
+<ul class="card-summary-section" data-bind="css: {disabled: !tile.tileid}">
+    <!-- ko foreach: { data: tile.cards, as: 'card' } -->
+    <li class="card-summary">
+        <a href="javascript:void(0)" data-bind="click: function () {
+            if (card.parent.tileid) {
+                card.canAdd() ? card.selected(true) : card.tiles()[0].selected(true);
+            }
+        }">
+            <h4 class="card-summary-name" style='color: #2f527a'>
+                <span data-bind="text: card.model.name"></span>
+                <i class="fa fa-plus-circle card-summary-add" data-bind="click: function(){$parent.createParentAndChild($parent.tile, card)}"></i>
+            </h4>
+        </a>
+        <ul class="tile-summary-item" data-bind="foreach: {
+                data: card.tiles,
+                as: 'tile'
+            }">
+            <li class="tile-summary">
+                <a href="#" data-bind="click: function () { tile.selected(true) }">
+                    <!-- ko if: card.widgets().length > 0 -->
+                    <span data-bind="text: card.widgets()[0].label || card.model.name" class="tile-summary-label"></span>:
+                    <div style="display: inline;" data-bind="component: {
+                        name: self.form.widgetLookup[card.widgets()[0].widget_id()].name,
+                        params: {
+                            tile: tile,
+                            node: self.form.nodeLookup[card.widgets()[0].node_id()],
+                            config: self.form.widgetLookup[card.widgets()[0].widget_id()].config,
+                            label: self.form.widgetLookup[card.widgets()[0].widget_id()].label,
+                            value: tile.data[card.widgets()[0].node_id()],
+                            type: 'resource-editor',
+                            state: 'display_value'
+                        }
+                    }"></div>
+                    <!-- /ko -->
+                    <!-- ko if: card.widgets().length === 0 -->
+                    <span data-bind="text: card.model.name"></span>
+                    <!-- /ko -->
+                </a>
+            </li>
+        </ul>
+    </li>
+    <!-- /ko -->
+</ul>
+{% endblock form_cards %}
+
+{% block form_buttons %}
+<div class="install-buttons">
+    <!-- ko if: tile.tileid -->
+    <button class="btn btn-shim btn-labeled btn-lg fa fa-trash" data-bind="click: function () { self.form.deleteTile(tile); }, css: {disabled: (!card.isWritable && !self.preview), 'btn-warning': card.isWritable }">{% trans 'Delete this record' %}</button>
+    <!-- /ko -->
+    <!-- ko if: tile.dirty() -->
+    <!-- ko if: provisionalTileViewModel && !provisionalTileViewModel.tileIsFullyProvisional() && card.isWritable -->
+    <button class="btn btn-shim btn-danger btn-labeled btn-lg fa fa-times" data-bind="click: tile.reset">{% trans 'Cancel edit' %}</button>
+    <!-- /ko -->
+        <!-- ko if: tile.tileid -->
+        <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: function () { self.form.saveTile(tile); }, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Save edit' %}</button>
+        <!-- /ko -->
+    <!-- /ko -->
+</div>
+{% endblock form_buttons %}

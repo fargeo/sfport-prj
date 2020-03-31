@@ -1,0 +1,7 @@
+Export Command
+
+python manage.py packages -o export_business_data -d '/Users/adamlodge/repos/sfport-pkg/business_data' -f 'json' -g '07054980-e154-11e8-9e11-0c4de9ce7b44'
+
+
+
+python manage.py packages -o import_business_data -s '/Users/adamlodge/repos/sfport-pkg/business_data/Port_of_SF_Projects_2019-04-09_13-44-26.json' -ow 'append'

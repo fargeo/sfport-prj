@@ -1,0 +1,1088 @@
+{
+    "graph": [
+        {
+            "author": "Adam Lodge", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "53ff30e2-b451-11e7-8350-0242ac110004", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Design", 
+                    "nodegroup_id": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "sortorder": 1, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "6d736d04-b456-11e7-b9f0-0242ac110004", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "Select all specifications that apply to this project", 
+                    "is_editable": true, 
+                    "name": "Environmental Specifications", 
+                    "nodegroup_id": "5205bb76-b456-11e7-8e63-0242ac110004", 
+                    "sortorder": 4, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "199f950a-b450-11e7-aeb6-0242ac110004", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "BCDC", 
+                    "nodegroup_id": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "sortorder": 0, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "c4849092-b450-11e7-9051-0242ac110004", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Historical", 
+                    "nodegroup_id": "b4c33f32-b450-11e7-85b2-0242ac110004", 
+                    "sortorder": 2, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "9927933c-b44f-11e7-b5b8-0242ac110004", 
+                    "description": "For use in the Planning and Environmental portion of the graph.", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Planning - Permitting and Review", 
+                    "nodegroup_id": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "44f4a79e-b45b-11e7-8a84-0242ac110004", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Environmental Permits", 
+                    "nodegroup_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "sortorder": 3, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "199f950a-b450-11e7-aeb6-0242ac110004", 
+                    "config": {
+                        "label": "BCDC Type", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "88561530-cf23-11e7-b68c-0242ac110004", 
+                    "label": "BCDC Type", 
+                    "node_id": "46e5ecc0-cf22-11e7-9c32-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000017"
+                }, 
+                {
+                    "card_id": "53ff30e2-b451-11e7-8350-0242ac110004", 
+                    "config": {
+                        "label": "Design Review Status", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "8854af1a-cf23-11e7-b68c-0242ac110004", 
+                    "label": "Design Review Status", 
+                    "node_id": "a3229f24-cf22-11e7-bad7-0242ac110004", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000015"
+                }, 
+                {
+                    "card_id": "c4849092-b450-11e7-9051-0242ac110004", 
+                    "config": {
+                        "label": "Historical Permit Status", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "88598ba2-cf23-11e7-b68c-0242ac110004", 
+                    "label": "Historical Permit Status", 
+                    "node_id": "e7c7c10e-cf22-11e7-b14d-0242ac110004", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000015"
+                }, 
+                {
+                    "card_id": "44f4a79e-b45b-11e7-8a84-0242ac110004", 
+                    "config": {
+                        "label": "Environmental Permit Status", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "88576048-cf23-11e7-b68c-0242ac110004", 
+                    "label": "Environmental Permit Status", 
+                    "node_id": "33da959e-cf23-11e7-9a47-0242ac110004", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000015"
+                }, 
+                {
+                    "card_id": "44f4a79e-b45b-11e7-8a84-0242ac110004", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Submitted Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "8857a7b0-cf23-11e7-b68c-0242ac110004", 
+                    "label": "Submitted Date", 
+                    "node_id": "4a87742e-cf23-11e7-8285-0242ac110004", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "44f4a79e-b45b-11e7-8a84-0242ac110004", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Due Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "8857ef90-cf23-11e7-b68c-0242ac110004", 
+                    "label": "Due Date", 
+                    "node_id": "59a36530-cf23-11e7-a295-0242ac110004", 
+                    "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "44f4a79e-b45b-11e7-8a84-0242ac110004", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Approved Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "88583856-cf23-11e7-b68c-0242ac110004", 
+                    "label": "Approved Date", 
+                    "node_id": "69b2bb88-cf23-11e7-ba8f-0242ac110004", 
+                    "sortorder": 4, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "44f4a79e-b45b-11e7-8a84-0242ac110004", 
+                    "config": {
+                        "label": "Environmental Permit Notes", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "88588248-cf23-11e7-b68c-0242ac110004", 
+                    "label": "Environmental Permit Notes", 
+                    "node_id": "74406ce4-cf23-11e7-bb50-0242ac110004", 
+                    "sortorder": 5, 
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                }, 
+                {
+                    "card_id": "199f950a-b450-11e7-aeb6-0242ac110004", 
+                    "config": {
+                        "label": "BCDC Status", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "55a3f74e-b455-11e7-9536-0242ac110004", 
+                    "label": "BCDC Status", 
+                    "node_id": "1ccb483c-b450-11e7-9b3c-0242ac110004", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000015"
+                }, 
+                {
+                    "card_id": "199f950a-b450-11e7-aeb6-0242ac110004", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "BCDC Date Submitted", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "88565afe-cf23-11e7-b68c-0242ac110004", 
+                    "label": "BCDC Date Submitted", 
+                    "node_id": "7b1eeb4a-cf22-11e7-88fd-0242ac110004", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "53ff30e2-b451-11e7-8350-0242ac110004", 
+                    "config": {
+                        "label": "Design Review Type", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "55a61d62-b455-11e7-9536-0242ac110004", 
+                    "label": "Design Review Type", 
+                    "node_id": "5a4e3948-b451-11e7-a81f-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000018"
+                }, 
+                {
+                    "card_id": "53ff30e2-b451-11e7-8350-0242ac110004", 
+                    "config": {
+                        "label": "Design Review Comments", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "8854fab0-cf23-11e7-b68c-0242ac110004", 
+                    "label": "Design Review Comments", 
+                    "node_id": "cd5f7c26-cf22-11e7-8358-0242ac110004", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                }, 
+                {
+                    "card_id": "c4849092-b450-11e7-9051-0242ac110004", 
+                    "config": {
+                        "label": "Historical Permit Type", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "55a71230-b455-11e7-9536-0242ac110004", 
+                    "label": "Historical Permit Type", 
+                    "node_id": "c6aa70c6-b450-11e7-a853-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000018"
+                }, 
+                {
+                    "card_id": "44f4a79e-b45b-11e7-8a84-0242ac110004", 
+                    "config": {
+                        "label": "Environmental Permit Type", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "5f3d4a74-b45c-11e7-9641-0242ac110004", 
+                    "label": "Environmental Permit Type", 
+                    "node_id": "64e46512-b45b-11e7-bc6c-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000017"
+                }, 
+                {
+                    "card_id": "6d736d04-b456-11e7-b9f0-0242ac110004", 
+                    "config": {
+                        "label": "Environmental Specifications", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "5f3ed4b6-b45c-11e7-9641-0242ac110004", 
+                    "label": "Environmental Specifications", 
+                    "node_id": "5205bb76-b456-11e7-8e63-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000018"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "For use in the Planning and Environmental portion of the graph.", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                    "edgeid": "5205bf04-b456-11e7-8e63-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "5205bb76-b456-11e7-8e63-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "edgeid": "33da9954-cf23-11e7-9a47-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "33da959e-cf23-11e7-9a47-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "b4c33f32-b450-11e7-85b2-0242ac110004", 
+                    "edgeid": "e7c7c474-cf22-11e7-b14d-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "e7c7c10e-cf22-11e7-b14d-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                    "edgeid": "43704252-b451-11e7-90d9-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "43703eec-b451-11e7-90d9-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "edgeid": "64e4688c-b45b-11e7-bc6c-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "64e46512-b45b-11e7-bc6c-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "edgeid": "69b2bee4-cf23-11e7-ba8f-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "69b2bb88-cf23-11e7-ba8f-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "edgeid": "59a36882-cf23-11e7-a295-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "59a36530-cf23-11e7-a295-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                    "edgeid": "b4c34266-b450-11e7-85b2-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "b4c33f32-b450-11e7-85b2-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "edgeid": "a322a280-cf22-11e7-bad7-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a3229f24-cf22-11e7-bad7-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                    "edgeid": "0bd4d5ca-b450-11e7-a86f-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "0bd4d264-b450-11e7-a86f-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "edgeid": "5a4e3cf4-b451-11e7-a81f-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "5a4e3948-b451-11e7-a81f-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "edgeid": "7b1eee9c-cf22-11e7-88fd-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "7b1eeb4a-cf22-11e7-88fd-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "b4c33f32-b450-11e7-85b2-0242ac110004", 
+                    "edgeid": "c6aa7422-b450-11e7-a853-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "c6aa70c6-b450-11e7-a853-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "edgeid": "46e5f062-cf22-11e7-9c32-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "46e5ecc0-cf22-11e7-9c32-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                    "edgeid": "34086b00-b45b-11e7-aee2-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "3408679a-b45b-11e7-aee2-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "edgeid": "1ccb4bac-b450-11e7-9b3c-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "1ccb483c-b450-11e7-9b3c-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "edgeid": "7440704a-cf23-11e7-bb50-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "74406ce4-cf23-11e7-bb50-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "edgeid": "cd5f7fb4-cf22-11e7-8358-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "cd5f7c26-cf22-11e7-8358-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "edgeid": "4a87778a-cf23-11e7-8285-0242ac110004", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "4a87742e-cf23-11e7-8285-0242ac110004"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+            "iconclass": "", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Planning - Permitting and Review", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "parentnodegroup_id": "99278d38-b44f-11e7-b5b8-0242ac110004"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "parentnodegroup_id": "99278d38-b44f-11e7-b5b8-0242ac110004"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "5205bb76-b456-11e7-8e63-0242ac110004", 
+                    "parentnodegroup_id": "99278d38-b44f-11e7-b5b8-0242ac110004"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "b4c33f32-b450-11e7-85b2-0242ac110004", 
+                    "parentnodegroup_id": "99278d38-b44f-11e7-b5b8-0242ac110004"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "parentnodegroup_id": "99278d38-b44f-11e7-b5b8-0242ac110004"
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "bdf37802-7607-4b9b-b9e5-fbc7c50f3bf2", 
+                                "selected": false, 
+                                "text": "to be determined"
+                            }, 
+                            {
+                                "id": "380ba880-4fed-4ed2-8447-da7fd4c56098", 
+                                "selected": false, 
+                                "text": "Required"
+                            }, 
+                            {
+                                "id": "188553f3-726c-4e79-bdc4-dbc5bdf64902", 
+                                "selected": false, 
+                                "text": "Not Required"
+                            }, 
+                            {
+                                "id": "c1ca0882-301d-407a-ac14-b83cbed4e3b6", 
+                                "selected": false, 
+                                "text": "Permit Submitted"
+                            }, 
+                            {
+                                "id": "86372291-cb0d-44a2-a632-a43bc668ee23", 
+                                "selected": false, 
+                                "text": "Permit Approved"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "BCDC Status", 
+                    "nodegroup_id": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "nodeid": "1ccb483c-b450-11e7-9b3c-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "0f6ca48c-92ef-430a-8b45-a7d16d36481d", 
+                                "selected": false, 
+                                "text": "to be determined"
+                            }, 
+                            {
+                                "id": "b116bbec-8d64-4b45-b05c-1ffcf76aee06", 
+                                "selected": false, 
+                                "text": "Required"
+                            }, 
+                            {
+                                "id": "cc761648-f96b-447c-bd19-1c209d0f5290", 
+                                "selected": false, 
+                                "text": "Not Required"
+                            }, 
+                            {
+                                "id": "9cb2213d-66f0-428c-a81b-d5224d07d71d", 
+                                "selected": false, 
+                                "text": "Completed"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Environmental Permit Status", 
+                    "nodegroup_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "nodeid": "33da959e-cf23-11e7-9a47-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "0f6ca48c-92ef-430a-8b45-a7d16d36481d", 
+                                "selected": false, 
+                                "text": "to be determined"
+                            }, 
+                            {
+                                "id": "51cd8165-93f0-4eb4-8c8a-3e492c227ef3", 
+                                "selected": false, 
+                                "text": "Major"
+                            }, 
+                            {
+                                "id": "b116bbec-8d64-4b45-b05c-1ffcf76aee06", 
+                                "selected": false, 
+                                "text": "Minor/Amendment"
+                            }, 
+                            {
+                                "id": "3a992f4a-5423-43c2-91a5-afec2ae3f632", 
+                                "selected": false, 
+                                "text": "M77-17"
+                            }, 
+                            {
+                                "id": "163360f5-f2a9-4c8f-984e-1dc07f891aea", 
+                                "selected": false, 
+                                "text": "Other"
+                            }, 
+                            {
+                                "id": "cc761648-f96b-447c-bd19-1c209d0f5290", 
+                                "selected": false, 
+                                "text": "Not Required"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "BCDC Tyoe", 
+                    "nodegroup_id": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "nodeid": "46e5ecc0-cf22-11e7-9c32-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "0f6ca48c-92ef-430a-8b45-a7d16d36481d", 
+                                "selected": false, 
+                                "text": "to be determined"
+                            }, 
+                            {
+                                "id": "b116bbec-8d64-4b45-b05c-1ffcf76aee06", 
+                                "selected": false, 
+                                "text": "Required"
+                            }, 
+                            {
+                                "id": "cc761648-f96b-447c-bd19-1c209d0f5290", 
+                                "selected": false, 
+                                "text": "Not Required"
+                            }, 
+                            {
+                                "id": "9cb2213d-66f0-428c-a81b-d5224d07d71d", 
+                                "selected": false, 
+                                "text": "Completed"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Historical Permit Status", 
+                    "nodegroup_id": "b4c33f32-b450-11e7-85b2-0242ac110004", 
+                    "nodeid": "e7c7c10e-cf22-11e7-b14d-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Design Review", 
+                    "nodegroup_id": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "nodeid": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Environmental Permit Notes", 
+                    "nodegroup_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "nodeid": "74406ce4-cf23-11e7-bb50-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Due Date", 
+                    "nodegroup_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "nodeid": "59a36530-cf23-11e7-a295-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "BCDC Date Submitted", 
+                    "nodegroup_id": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "nodeid": "7b1eeb4a-cf22-11e7-88fd-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Environmental Permits Designation", 
+                    "nodegroup_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "nodeid": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Permitting", 
+                    "nodegroup_id": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                    "nodeid": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Design Review Comments", 
+                    "nodegroup_id": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "nodeid": "cd5f7c26-cf22-11e7-8358-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "dc86a6ee-d4da-4146-96e4-37ddc0faa921", 
+                                "selected": false, 
+                                "text": "Heath - Safety"
+                            }, 
+                            {
+                                "id": "86d8a204-c66c-47af-bd8b-2054a8d861f3", 
+                                "selected": false, 
+                                "text": "Temporary Facilities Controls"
+                            }, 
+                            {
+                                "id": "7f946740-bdd8-49b9-8db8-2816988284e5", 
+                                "selected": false, 
+                                "text": "Environmental Mitigation Measures"
+                            }, 
+                            {
+                                "id": "a9abb931-7ded-409f-96a1-d26769bf9432", 
+                                "selected": false, 
+                                "text": "Temporary Erosion and Sediment Controls"
+                            }, 
+                            {
+                                "id": "be458b6a-0d26-4fb7-beb9-c0366337deb7", 
+                                "selected": false, 
+                                "text": "Excavated Materials Management"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Required Environmental Specifications", 
+                    "nodegroup_id": "5205bb76-b456-11e7-8e63-0242ac110004", 
+                    "nodeid": "5205bb76-b456-11e7-8e63-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "e2915277-11e9-4e73-9312-1c60a5a66397", 
+                                "selected": false, 
+                                "text": "HRE"
+                            }, 
+                            {
+                                "id": "b04142e1-470a-4ad4-b4d5-3c2717b8f316", 
+                                "selected": false, 
+                                "text": "HPC"
+                            }, 
+                            {
+                                "id": "7be78a76-c48f-4396-9b51-5da22ed5a83b", 
+                                "selected": false, 
+                                "text": "SHPO"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Historical Permit Type", 
+                    "nodegroup_id": "b4c33f32-b450-11e7-85b2-0242ac110004", 
+                    "nodeid": "c6aa70c6-b450-11e7-a853-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "e2915277-11e9-4e73-9312-1c60a5a66397", 
+                                "selected": false, 
+                                "text": "Waterfront Design Advisory"
+                            }, 
+                            {
+                                "id": "b04142e1-470a-4ad4-b4d5-3c2717b8f316", 
+                                "selected": false, 
+                                "text": "Internal Design Review"
+                            }, 
+                            {
+                                "id": "7be78a76-c48f-4396-9b51-5da22ed5a83b", 
+                                "selected": false, 
+                                "text": "ADA Review"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Design Review Type", 
+                    "nodegroup_id": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "nodeid": "5a4e3948-b451-11e7-a81f-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "0f6ca48c-92ef-430a-8b45-a7d16d36481d", 
+                                "selected": false, 
+                                "text": "to be determined"
+                            }, 
+                            {
+                                "id": "b116bbec-8d64-4b45-b05c-1ffcf76aee06", 
+                                "selected": false, 
+                                "text": "Required"
+                            }, 
+                            {
+                                "id": "cc761648-f96b-447c-bd19-1c209d0f5290", 
+                                "selected": false, 
+                                "text": "Not Required"
+                            }, 
+                            {
+                                "id": "9cb2213d-66f0-428c-a81b-d5224d07d71d", 
+                                "selected": false, 
+                                "text": "Completed"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Design Review Status", 
+                    "nodegroup_id": "43703eec-b451-11e7-90d9-0242ac110004", 
+                    "nodeid": "a3229f24-cf22-11e7-bad7-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "c9c914bc-4fee-4a3c-a34e-6ae244ad6b19", 
+                                "selected": false, 
+                                "text": "US Army Corps"
+                            }, 
+                            {
+                                "id": "63b586e2-4a40-4033-b3f0-8414ff4ca1a4", 
+                                "selected": false, 
+                                "text": "NMFS"
+                            }, 
+                            {
+                                "id": "515640df-ec14-4fe2-942a-336a482afa0c", 
+                                "selected": false, 
+                                "text": "CA Fish and Wildlife"
+                            }, 
+                            {
+                                "id": "5344b22d-6ff3-4c09-a850-71f022e05eee", 
+                                "selected": false, 
+                                "text": "Regional Water Board"
+                            }, 
+                            {
+                                "id": "d4bbe238-1f4f-4385-b3ae-4d48172e2759", 
+                                "selected": false, 
+                                "text": "Maher"
+                            }, 
+                            {
+                                "id": "c936389a-8a59-4cf4-94d1-9a00197b7490", 
+                                "selected": false, 
+                                "text": "Air District"
+                            }, 
+                            {
+                                "id": "629c972b-e517-4ea4-afd5-c97b67617b5a", 
+                                "selected": false, 
+                                "text": "Other"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Environmental Permit Type", 
+                    "nodegroup_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "nodeid": "64e46512-b45b-11e7-bc6c-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Approved Date", 
+                    "nodegroup_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "nodeid": "69b2bb88-cf23-11e7-ba8f-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Submitted Date", 
+                    "nodegroup_id": "3408679a-b45b-11e7-aee2-0242ac110004", 
+                    "nodeid": "4a87742e-cf23-11e7-8285-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Historical", 
+                    "nodegroup_id": "b4c33f32-b450-11e7-85b2-0242ac110004", 
+                    "nodeid": "b4c33f32-b450-11e7-85b2-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "BCDC", 
+                    "nodegroup_id": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "nodeid": "0bd4d264-b450-11e7-a86f-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }
+            ], 
+            "ontology_id": null, 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "99278a36-b44f-11e7-b5b8-0242ac110004", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Permitting", 
+                "nodegroup_id": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                "nodeid": "99278d38-b44f-11e7-b5b8-0242ac110004", 
+                "ontologyclass": null
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "os": "Linux", 
+        "os version": "4.9.43-17.39.amzn1.x86_64"
+    }
+}
