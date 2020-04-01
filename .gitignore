@@ -6,6 +6,7 @@ sfport_prj/uploadedfiles
 sfport_prj/export_deliverables/*
 sfport_prj/settings_local.py
 sfport_prj/media/packages/
+sfport_prj/node_modules/
 arches.log
 *.sublime*
 sfport_prj/settings_local.py
