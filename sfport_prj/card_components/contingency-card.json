@@ -1,0 +1,8 @@
+{
+    "componentid": "0f4067b2-c115-48b0-a734-0bd1b47e9dfa",
+    "name": "Contingency Card",
+    "description": "",
+    "component": "views/components/card_components/contingency-card",
+    "componentname": "contingency-card",
+    "defaultconfig": {}
+}

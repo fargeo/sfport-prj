@@ -1,0 +1,8 @@
+{
+    "componentid": "154474ea-78d3-4ac2-9005-e2b1c73a9951",
+    "name": "Engineering Card",
+    "description": "",
+    "component": "views/components/card_components/engineering-card",
+    "componentname": "engineering-card",
+    "defaultconfig": {}
+}

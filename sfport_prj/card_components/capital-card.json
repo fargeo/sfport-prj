@@ -1,0 +1,8 @@
+{
+    "componentid": "10ae2f00-cbda-4a0d-8ca2-5af3b46b37ad",
+    "name": "Capital Card",
+    "description": "",
+    "component": "views/components/card_components/capital-card",
+    "componentname": "capital-card",
+    "defaultconfig": {}
+}
