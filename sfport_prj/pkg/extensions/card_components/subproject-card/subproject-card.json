@@ -1,0 +1,8 @@
+{
+    "componentid": "4765fd49-03af-4cfa-b163-17fa10a6e09b",
+    "name": "Subproject Card",
+    "description": "",
+    "component": "views/components/card_components/subproject-card",
+    "componentname": "subproject-card",
+    "defaultconfig": {}
+}

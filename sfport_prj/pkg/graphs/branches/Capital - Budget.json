@@ -1,0 +1,332 @@
+{
+    "graph": [
+        {
+            "author": "Adam Lodge", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "057a52ae-b527-11e7-9914-0242ac110004", 
+                    "description": "", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Capital - Budget", 
+                    "nodegroup_id": "0579b790-b527-11e7-9914-0242ac110004", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "4b559e0a-b527-11e7-bef3-0242ac110004", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Budget", 
+                    "nodegroup_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "sortorder": 0, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "4b559e0a-b527-11e7-bef3-0242ac110004", 
+                    "config": {
+                        "label": "Budget Type", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "9c0656c2-f4cf-11e7-9fd2-0242ac110004", 
+                    "label": "Budget Type", 
+                    "node_id": "f58bc0f2-f4ce-11e7-9bd4-0242ac110004", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000017"
+                }, 
+                {
+                    "card_id": "4b559e0a-b527-11e7-bef3-0242ac110004", 
+                    "config": {
+                        "label": "Budget Amount", 
+                        "max": "", 
+                        "min": "", 
+                        "placeholder": "Enter number", 
+                        "width": "100%"
+                    }, 
+                    "id": "efce953c-cf20-11e7-822a-0242ac110004", 
+                    "label": "Budget Amount", 
+                    "node_id": "c651d5ca-cf20-11e7-825f-0242ac110004", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000008"
+                }, 
+                {
+                    "card_id": "4b559e0a-b527-11e7-bef3-0242ac110004", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Budget Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "efcede48-cf20-11e7-822a-0242ac110004", 
+                    "label": "Budget Date", 
+                    "node_id": "d7d5e5b6-cf20-11e7-bfd3-0242ac110004", 
+                    "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "4b559e0a-b527-11e7-bef3-0242ac110004", 
+                    "config": {
+                        "label": "Budget Phase", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "70d35ff0-b52c-11e7-ac98-0242ac110004", 
+                    "label": "Budget Phase", 
+                    "node_id": "86e7b340-b527-11e7-8edc-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000017"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "edgeid": "c651d94e-cf20-11e7-825f-0242ac110004", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "c651d5ca-cf20-11e7-825f-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "0579b790-b527-11e7-9914-0242ac110004", 
+                    "edgeid": "3a446fe2-b527-11e7-af41-0242ac110004", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "3a446c9a-b527-11e7-af41-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "edgeid": "f58bc64c-f4ce-11e7-9bd4-0242ac110004", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "f58bc0f2-f4ce-11e7-9bd4-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "edgeid": "d7d5e91c-cf20-11e7-bfd3-0242ac110004", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "d7d5e5b6-cf20-11e7-bfd3-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "edgeid": "86e7b69c-b527-11e7-8edc-0242ac110004", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "86e7b340-b527-11e7-8edc-0242ac110004"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "0579bba0-b527-11e7-9914-0242ac110004", 
+            "iconclass": "", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Capital - Budget", 
+            "nodegroups": [
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "0579b790-b527-11e7-9914-0242ac110004", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "parentnodegroup_id": "0579b790-b527-11e7-9914-0242ac110004"
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Capital Budget", 
+                    "nodegroup_id": "0579b790-b527-11e7-9914-0242ac110004", 
+                    "nodeid": "0579b790-b527-11e7-9914-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "number", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Budget Amount", 
+                    "nodegroup_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "nodeid": "c651d5ca-cf20-11e7-825f-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Budget", 
+                    "nodegroup_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "nodeid": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Budget Date", 
+                    "nodegroup_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "nodeid": "d7d5e5b6-cf20-11e7-bfd3-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "c75e08f6-e220-45e2-80ac-c49c844ce745", 
+                                "selected": false, 
+                                "text": "Project Planning"
+                            }, 
+                            {
+                                "id": "52ae482b-b1b6-470b-92f3-b5f7a4201b37", 
+                                "selected": false, 
+                                "text": "Design and Entitlements"
+                            }, 
+                            {
+                                "id": "57f5095e-1d25-4b93-9a88-2e161b4b091c", 
+                                "selected": false, 
+                                "text": "Bid, Award, and Construction"
+                            }, 
+                            {
+                                "id": "310c0dfe-ce8c-45f8-9feb-bf1264d7f2c3", 
+                                "selected": false, 
+                                "text": "Closeout"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Budget Phase", 
+                    "nodegroup_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "nodeid": "86e7b340-b527-11e7-8edc-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "aec66b0b-3372-48cd-b49d-7bd6a6ec8926", 
+                                "selected": false, 
+                                "text": "Original"
+                            }, 
+                            {
+                                "id": "a301cc25-95e7-4f35-99dc-5ee354b008b0", 
+                                "selected": false, 
+                                "text": "Revised"
+                            }, 
+                            {
+                                "id": "0651ef7b-efaf-4b74-b209-c65b2a6e63b0", 
+                                "selected": false, 
+                                "text": "Actual"
+                            }
+                        ]
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Budget Type", 
+                    "nodegroup_id": "3a446c9a-b527-11e7-af41-0242ac110004", 
+                    "nodeid": "f58bc0f2-f4ce-11e7-9bd4-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }
+            ], 
+            "ontology_id": null, 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "0579bba0-b527-11e7-9914-0242ac110004", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Capital Budget", 
+                "nodegroup_id": "0579b790-b527-11e7-9914-0242ac110004", 
+                "nodeid": "0579b790-b527-11e7-9914-0242ac110004", 
+                "ontologyclass": null
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "os": "Linux", 
+        "os version": "4.9.43-17.39.amzn1.x86_64"
+    }
+}

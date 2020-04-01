@@ -1,0 +1,45 @@
+
+Engineering Funding and Contracts
+card component: engineering-card.js
+
+1. Encumbrances and Commitments = (Sum of Contract Amounts) + (Sum of Change Orders)
+    Encumbrances and Commitments nodeid = a1c028c2-19d6-11e9-ab55-acde48001122
+    Contract Amount nodeid = a5de70f8-19d6-11e9-ba47-acde48001122
+    Change Orders nodeid = a5de75d9-19d6-11e9-9e07-acde48001122)
+
+2. Remaining Balance = (Sum of funding sources) - Encumbrances
+    Remaining Balance nodeid = 9b56e3ae-19d6-11e9-aac0-acde48001122
+    Funding source nodeid = 'a4332063-19d6-11e9-bdaf-acde48001122'
+
+Engineering Contract Contingency
+card component: contingency-card.js
+
+    1. Contingency = Contract Amount * 0.10
+        Contingency nodeid = a5de73d1-19d6-11e9-a50c-acde48001122
+        Contract Amount nodeid = a5de70f8-19d6-11e9-ba47-acde48001122
+
+    2. Remaining Contingency Percentage = (Contingency - Sum of Change Orders)/Contingency;
+        Contingency nodeid = a5de7485-19d6-11e9-a898-acde48001122
+        Change Orders nodeid = a5de75d9-19d6-11e9-9e07-acde48001122
+
+Sub-project Applied Mitigations
+card component: subproject-card.js
+
+    1. Number of Mitigations = Total count of applied mitigations
+        number of mitigations nodeid = '70883880-526e-11e9-83b1-acde48001122'
+        applied mitigations nodeid = 0cd9e70a-20e8-11e9-91d2-acde48001122
+
+    2. Number of Mitigations Pending = Total count of mitigations where mitigation status is not completed
+        mitigation status nodeid = '0cd9fbab-20e8-11e9-9ed6-acde48001122'
+        completed domain value = 'fe31157c-68f4-4588-a209-ee3ea40657f0'
+        mitigations pending nodeid = 'aec5620a-526e-11e9-b901-acde48001122'
+
+    3. Number of Completed Mitigations = Total count of mitigations where mitigation status is completed
+        mitigation status nodeid = '0cd9fbab-20e8-11e9-9ed6-acde48001122'
+        completed domain value = 'fe31157c-68f4-4588-a209-ee3ea40657f0'
+        mitigations complete nodeid = '9ca7deb8-526e-11e9-a046-acde48001122',
+
+    4. Completion Date of Pending Mitigations = The date of the last mitigation to be completed where mitigation status is not completed
+        mitigation status nodeid = '0cd9fbab-20e8-11e9-9ed6-acde48001122'
+        completed domain value = 'fe31157c-68f4-4588-a209-ee3ea40657f0'
+        pending mitigations completion date nodeid = 'ce7c5fe8-526e-11e9-8d3e-acde48001122'

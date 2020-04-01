@@ -1,0 +1,249 @@
+{
+    "graph": [
+        {
+            "author": "Adam Lodge", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "7204cb88-ba8c-11e7-89a3-0242ac110004", 
+                    "description": "", 
+                    "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Project Info - Executive Status", 
+                    "nodegroup_id": "7204348e-ba8c-11e7-89a3-0242ac110004", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "9f7515d2-ba8c-11e7-9b90-0242ac110004", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Status", 
+                    "nodegroup_id": "97f33af0-ba8c-11e7-84a1-0242ac110004", 
+                    "sortorder": 0, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "9f7515d2-ba8c-11e7-9b90-0242ac110004", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "Status Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "55e13cb0-ba8d-11e7-9ddb-0242ac110004", 
+                    "label": "Status Date", 
+                    "node_id": "db45af0e-ba8c-11e7-be10-0242ac110004", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "9f7515d2-ba8c-11e7-9b90-0242ac110004", 
+                    "config": {
+                        "label": "Status", 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "55e214d2-ba8d-11e7-9ddb-0242ac110004", 
+                    "label": "Status", 
+                    "node_id": "97f33af0-ba8c-11e7-84a1-0242ac110004", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000017"
+                }, 
+                {
+                    "card_id": "9f7515d2-ba8c-11e7-9b90-0242ac110004", 
+                    "config": {
+                        "label": "Status Description", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "55e1cc70-ba8d-11e7-9ddb-0242ac110004", 
+                    "label": "Status Description", 
+                    "node_id": "3d4dab7a-ba8d-11e7-8f98-0242ac110004", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "97f33af0-ba8c-11e7-84a1-0242ac110004", 
+                    "edgeid": "db45b27e-ba8c-11e7-be10-0242ac110004", 
+                    "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "db45af0e-ba8c-11e7-be10-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "97f33af0-ba8c-11e7-84a1-0242ac110004", 
+                    "edgeid": "3d4daefe-ba8d-11e7-8f98-0242ac110004", 
+                    "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "3d4dab7a-ba8d-11e7-8f98-0242ac110004"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "7204348e-ba8c-11e7-89a3-0242ac110004", 
+                    "edgeid": "97f33e88-ba8c-11e7-84a1-0242ac110004", 
+                    "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "97f33af0-ba8c-11e7-84a1-0242ac110004"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+            "iconclass": "", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Project Info - Executive Status", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "7204348e-ba8c-11e7-89a3-0242ac110004", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "97f33af0-ba8c-11e7-84a1-0242ac110004", 
+                    "parentnodegroup_id": "7204348e-ba8c-11e7-89a3-0242ac110004"
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "547fef98-4217-4584-8c7d-580f913ac731", 
+                                "selected": false, 
+                                "text": "Active"
+                            }, 
+                            {
+                                "id": "92a1d99b-8f11-4650-9e41-85f95fde0731", 
+                                "selected": false, 
+                                "text": "Inactive"
+                            }, 
+                            {
+                                "id": "72c2d721-6d87-48ce-806f-30e5c9758f27", 
+                                "selected": false, 
+                                "text": "Complete"
+                            }
+                        ], 
+                        "rdmCollection": null
+                    }, 
+                    "datatype": "domain-value", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Status", 
+                    "nodegroup_id": "97f33af0-ba8c-11e7-84a1-0242ac110004", 
+                    "nodeid": "97f33af0-ba8c-11e7-84a1-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Status Description", 
+                    "nodegroup_id": "97f33af0-ba8c-11e7-84a1-0242ac110004", 
+                    "nodeid": "3d4dab7a-ba8d-11e7-8f98-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": false, 
+                    "istopnode": false, 
+                    "name": "Status Date", 
+                    "nodegroup_id": "97f33af0-ba8c-11e7-84a1-0242ac110004", 
+                    "nodeid": "db45af0e-ba8c-11e7-be10-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Status Branch", 
+                    "nodegroup_id": "7204348e-ba8c-11e7-89a3-0242ac110004", 
+                    "nodeid": "7204348e-ba8c-11e7-89a3-0242ac110004", 
+                    "ontologyclass": null, 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": null, 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "720438ee-ba8c-11e7-89a3-0242ac110004", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Status Branch", 
+                "nodegroup_id": "7204348e-ba8c-11e7-89a3-0242ac110004", 
+                "nodeid": "7204348e-ba8c-11e7-89a3-0242ac110004", 
+                "ontologyclass": null
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Debian 4.9.2-10) 4.9.2, 64-bit", 
+        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
+        "os": "Linux", 
+        "os version": "4.9.43-17.39.amzn1.x86_64"
+    }
+}

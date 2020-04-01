@@ -1,0 +1,20 @@
+{
+    "version": 8,
+    "name": "Jurisdiction",
+    "sources": {
+        "Jurisdiction": {
+            "type": "geojson",
+            "data": "https://services.arcgis.com/Zs2aNLFN00jrS4gG/arcgis/rest/services/Jurisdiction/FeatureServer/0/query?where=1%3D1&outfields=*&f=geojson&outSR=4326"
+        }
+    },
+    "layers": [{
+        "id": "Jurisdiction-line",
+        "type": "line",
+        "source": "Jurisdiction",
+        "minzoom":12,
+        "paint": {
+            "line-color": "rgba(70,70,70,0.5)",
+            "line-width": 3
+        }
+    }]
+}

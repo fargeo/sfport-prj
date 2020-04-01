@@ -1,0 +1,44 @@
+{
+    "version": 8,
+    "name": "Facility",
+    "sources": {
+        "Facilities": {
+            "type": "geojson",
+            "data": "https://services.arcgis.com/Zs2aNLFN00jrS4gG/arcgis/rest/services/facilities/FeatureServer/0/query?where=1%3D1&outfields=*&f=geojson&outSR=4326"
+        }
+    },
+    "layers": [{
+        "id": "Facilities",
+        "type": "fill",
+        "source": "Facilities",
+        "minzoom":12,
+        "paint": {
+            "fill-color": "rgba(255,255,255,0.2)"
+        }
+    },
+    {
+        "id": "Facilities-line",
+        "type": "line",
+        "source": "Facilities",
+        "minzoom":12,
+        "paint": {
+            "line-color": "rgba(120,120,120,0.5)",
+            "line-width": 2
+        }
+    },
+    {
+        "id": "Facilities_label",
+        "type": "symbol",
+        "source": "Facilities",
+        "minzoom":14.5,
+        "layout": {
+            "text-field": "{facilitykey}",
+            "text-size": 12
+        },
+        "paint": {
+            "text-color": "rgba(70,70,70,0.5)",
+            "text-halo-color": "rgb(255,255,255)",
+            "text-halo-width": 1
+        }
+    }]
+}
