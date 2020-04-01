@@ -3,6 +3,9 @@ import os
 #ADMINS = (
 #)
 
+ALLOWED_HOSTS = ['*']
+
+#APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
 #ADMIN_MEDIA_PREFIX = '/media/admin/'
 
@@ -16,7 +19,6 @@ import os
 
 
 #AUTHENTICATION_BACKENDS = (
-#    oauth2_provider.backends.OAuth2Backend,
 #    django.contrib.auth.backends.ModelBackend,
 #    guardian.backends.ObjectPermissionBackend,
 #    arches.app.utils.permission_backend.PermissionBackend,
@@ -27,32 +29,32 @@ import os
 #AUTH_PASSWORD_VALIDATORS = [
 #    {
 #        "NAME": "arches.app.utils.password_validation.NumericPasswordValidator"
-#    }, 
+#    },
 #    {
-#        "NAME": "arches.app.utils.password_validation.SpecialCharacterValidator", 
+#        "NAME": "arches.app.utils.password_validation.SpecialCharacterValidator",
 #        "OPTIONS": {
 #            "special_characters": [
-#                "!", 
-#                "@", 
-#                "#", 
-#                ")", 
-#                "(", 
-#                "*", 
-#                "&", 
-#                "^", 
-#                "%", 
+#                "!",
+#                "@",
+#                "#",
+#                ")",
+#                "(",
+#                "*",
+#                "&",
+#                "^",
+#                "%",
 #                "$"
 #            ]
 #        }
-#    }, 
+#    },
 #    {
 #        "NAME": "arches.app.utils.password_validation.HasNumericCharacterValidator"
-#    }, 
+#    },
 #    {
 #        "NAME": "arches.app.utils.password_validation.HasUpperAndLowerCaseValidator"
-#    }, 
+#    },
 #    {
-#        "NAME": "arches.app.utils.password_validation.MinLengthValidator", 
+#        "NAME": "arches.app.utils.password_validation.MinLengthValidator",
 #        "OPTIONS": {
 #            "min_length": 9
 #        }
@@ -63,7 +65,7 @@ import os
 
 #CACHES = {
 #    "default": {
-#        "BACKEND": "django.core.cache.backends.memcached.MemcachedCache", 
+#        "BACKEND": "django.core.cache.backends.memcached.MemcachedCache",
 #        "LOCATION": "127.0.0.1:11211"
 #    }
 #}
@@ -80,28 +82,28 @@ import os
 #COPYRIGHT_YEAR = '2016'
 
 
-#DATABASES = {
-#    "default": {
-#        "ATOMIC_REQUESTS": False, 
-#        "AUTOCOMMIT": True, 
-#        "CONN_MAX_AGE": 0, 
-#        "ENGINE": "django.contrib.gis.db.backends.postgis", 
-#        "HOST": "localhost", 
-#        "NAME": "arches", 
-#        "OPTIONS": {}, 
-#        "PASSWORD": "postgis", 
-#        "PORT": "5432", 
-#        "POSTGIS_TEMPLATE": "template_postgis_20", 
-#        "TEST": {
-#            "CHARSET": None, 
-#            "COLLATION": None, 
-#            "MIRROR": None, 
-#            "NAME": None
-#        }, 
-#        "TIME_ZONE": None, 
-#        "USER": "postgres"
-#    }
-#}
+DATABASES = {
+    "default": {
+        "ATOMIC_REQUESTS": False,
+        "AUTOCOMMIT": True,
+        "CONN_MAX_AGE": 0,
+        "ENGINE": "django.contrib.gis.db.backends.postgis",
+        "HOST": "arches-hosted-postgres.csnyszsmskqt.us-west-1.rds.amazonaws.com",
+        "NAME": "sfportprod",
+         "OPTIONS": {},
+        "PASSWORD": "G$7#y9Bwz4IP%jtPKP1t",
+        "PORT": "5432",
+        "POSTGIS_TEMPLATE": "template_postgis_20",
+        "TEST": {
+            "CHARSET": None,
+            "COLLATION": None,
+            "MIRROR": None,
+            "NAME": None
+        },
+        "TIME_ZONE": None,
+        "USER": "far2489"
+    }
+}
 
 
 
@@ -112,8 +114,7 @@ import os
 
 #DATE_IMPORT_EXPORT_FORMAT = '%Y-%m-%d'
 
-#DEBUG = True
-
+DEBUG = False
 
 #ELASTICSEARCH_CONNECTION_OPTIONS = {
 #    "timeout": 30
@@ -121,15 +122,17 @@ import os
 
 
 
-#ELASTICSEARCH_HOSTS = [
-#    {
-#        "host": "localhost", 
-#        "port": 9200
-#    }
-#]
+ELASTICSEARCH_HOSTS = [
+    {
+#        "host": "vpc-arches-es65-production-aqxol75gfl6kjuauw4aekm6mma.us-west-1.es.amazonaws.com",
+        "host": "vpc-arches-sfport-production-fski3wk2jd7uljjm76ayg4rs3y.us-west-1.es.amazonaws.com",
+        "port": 80
+    }
+]
 
+ELASTICSEARCH_HTTP_PORT = 80
 
-#ELASTICSEARCH_HTTP_PORT = 9200
+USER_ELASTICSEARCH_PREFIX = 'sfportprod'
 
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
@@ -159,7 +162,6 @@ import os
 #    captcha,
 #    revproxy,
 #    corsheaders,
-#    oauth2_provider,
 #)
 
 
@@ -179,23 +181,23 @@ import os
 
 
 #LOGGING = {
-#    "disable_existing_loggers": False, 
+#    "disable_existing_loggers": False,
 #    "handlers": {
 #        "file": {
-#            "class": "logging.FileHandler", 
-#            "filename": "/arches/arches.log", 
+#            "class": "logging.FileHandler",
+#            "filename": "/arches/arches.log",
 #            "level": "DEBUG"
 #        }
-#    }, 
+#    },
 #    "loggers": {
 #        "arches": {
 #            "handlers": [
 #                "file"
-#            ], 
-#            "level": "DEBUG", 
+#            ],
+#            "level": "DEBUG",
 #            "propagate": True
 #        }
-#    }, 
+#    },
 #    "version": 1
 #}
 
@@ -206,14 +208,13 @@ import os
 #MANAGERS = (
 #)
 
-
-#MEDIA_ROOT = '/arches'
+MEDIA_ROOT = os.path.join('/', 'home', 'ubuntu', 'sfport-prj', 'sfport_prj')
 
 #MEDIA_URL = '/files/'
 
 
 #MIDDLEWARE_CLASSES = [
-#    "django.middleware.common.CommonMiddleware", 
+#    "django.middleware.common.CommonMiddleware",
 #    "django.middleware.csrf.CsrfViewMiddleware"
 #]
 
@@ -230,17 +231,18 @@ import os
 
 
 #ONTOLOGY_EXT = [
-#    "CRMsci_v1.2.3.rdfs.xml", 
-#    "CRMarchaeo_v1.4.rdfs.xml", 
-#    "CRMgeo_v1.2.rdfs.xml", 
-#    "CRMdig_v3.2.1.rdfs.xml", 
-#    "CRMinf_v0.7.rdfs.xml", 
+#    "CRMsci_v1.2.3.rdfs.xml",
+#    "CRMarchaeo_v1.4.rdfs.xml",
+#    "CRMgeo_v1.2.rdfs.xml",
+#    "CRMdig_v3.2.1.rdfs.xml",
+#    "CRMinf_v0.7.rdfs.xml",
 #    "arches_crm_enhancements.xml"
 #]
 
 
 #ONTOLOGY_PATH = '/arches/db/ontologies/cidoc_crm'
 
+#OVERRIDE_RESOURCE_MODEL_LOCK = True
 
 #POSTGIS_VERSION = (
 #    2,
@@ -270,34 +272,35 @@ import os
 #)
 
 
-#STATIC_ROOT = ''
+#STATIC_ROOT = os.path.join(APP_ROOT, 'static')
+STATIC_ROOT = '/home/ubuntu/sfport-prj/sfport-prj/static/'
 
-#STATIC_URL = '/media/'
+STATIC_URL = "/static/"
 
 #SYSTEM_SETTINGS_LOCAL_PATH = '/arches/db/system_settings/Arches_System_Settings_Local.json'
 
 
 #TEMPLATES = [
 #    {
-#        "APP_DIRS": True, 
-#        "BACKEND": "django.template.backends.django.DjangoTemplates", 
+#        "APP_DIRS": True,
+#        "BACKEND": "django.template.backends.django.DjangoTemplates",
 #        "DIRS": [
 #            "/arches/app/templates"
-#        ], 
+#        ],
 #        "OPTIONS": {
 #            "context_processors": [
-#                "django.contrib.auth.context_processors.auth", 
-#                "django.template.context_processors.debug", 
-#                "django.template.context_processors.i18n", 
-#                "django.template.context_processors.media", 
-#                "django.template.context_processors.static", 
-#                "django.template.context_processors.tz", 
-#                "django.template.context_processors.request", 
-#                "django.contrib.messages.context_processors.messages", 
-#                "arches.app.utils.context_processors.livereload", 
-#                "arches.app.utils.context_processors.map_info", 
+#                "django.contrib.auth.context_processors.auth",
+#                "django.template.context_processors.debug",
+#                "django.template.context_processors.i18n",
+#                "django.template.context_processors.media",
+#                "django.template.context_processors.static",
+#                "django.template.context_processors.tz",
+#                "django.template.context_processors.request",
+#                "django.contrib.messages.context_processors.messages",
+#                "arches.app.utils.context_processors.livereload",
+#                "arches.app.utils.context_processors.map_info",
 #                "arches.app.utils.context_processors.app_settings"
-#            ], 
+#            ],
 #            "debug": True
 #        }
 #    }
@@ -306,7 +309,7 @@ import os
 
 
 #TILE_CACHE_CONFIG = {
-#    "name": "Disk", 
+#    "name": "Disk",
 #    "path": "/arches/tileserver/cache"
 #}
 
@@ -320,4 +323,3 @@ import os
 #USE_TZ = False
 
 #WSGI_APPLICATION = 'arches.wsgi.application'
-
