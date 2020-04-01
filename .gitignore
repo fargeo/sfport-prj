@@ -4,6 +4,8 @@ sfport_prj/media/packages
 sfport_prj/logs/*.log
 sfport_prj/uploadedfiles
 sfport_prj/export_deliverables/*
+sfport_prj/settings_local.py
+sfport_prj/media/packages/
 arches.log
 *.sublime*
 sfport_prj/settings_local.py
