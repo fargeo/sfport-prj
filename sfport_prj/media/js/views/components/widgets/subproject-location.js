@@ -49,76 +49,73 @@ define([
                     }
                 });
             }
-            params.onInit = function (map) {
-                if (map) {
-                    self.map.on('load', function () {
-                        var layers = [
-                            {
-                                "id": "subproject-projects-fill",
-                                "type": "fill",
-                                "source": "subproject-geojson",
-                                "layout": {
-                                    "visibility": "visible"
-                                },
-                                "filter": ["all", ["==", "$type", "Polygon"]],
-                                "paint": {
-                                    "fill-color": [
-                                        "case",
-                                        ["==", ["get", "type"], "subproject"],
-                                        "rgba(48, 228, 252, 0.5)",
-                                        "transparent"
-                                    ]
-                                }
-                            },
-                            {
-                                "id": "subproject-projects-line",
-                                "type": "line",
-                                "source": "subproject-geojson",
-                                "layout": {
-                                    "visibility": "visible"
-                                },
-                                "paint": {
-                                    "line-width": [
-                                        "case",
-                                        ["==", ["get", "type"], "project"],
-                                        6,
-                                        2
-                                    ],
-                                    "line-color": [
-                                        "case",
-                                        ["==", ["get", "type"], "project"],
-                                        "rgba(48, 111, 252, 0.5)",
-                                        "rgba(48, 228, 252, 0.9)"
-                                    ]
-                                }
-                            }
-                        ];
-
-                        self.map.addSource('subproject-geojson', {
-                            'type': 'geojson',
-                            'data': projectGeoJSON
-                        });
-                        layers.forEach(function(layer) {
-                            self.map.addLayer(layer, 'gl-draw-point.cold');
-                        });
-
-                        if (projectGeoJSON.features.length > 0) {
-                            var bounds = new mapboxgl.LngLatBounds(geojsonExtent(projectGeoJSON));
-                            var tr = self.map.transform;
-                            var nw = tr.project(bounds.getNorthWest());
-                            var se = tr.project(bounds.getSouthEast());
-                            var size = se.sub(nw);
-                            var scaleX = (tr.width - 80) / size.x;
-                            var scaleY = (tr.height - 80) / size.y;
-                            self.map.jumpTo({
-                                center: tr.unproject(nw.add(se).div(2)),
-                                zoom: Math.min(tr.scaleZoom(tr.scale * Math.min(scaleX, scaleY)), 17)
-                            });
-                        }
+            
+            params.layers = [
+                {
+                    "id": "subproject-projects-fill",
+                    "type": "fill",
+                    "source": "subproject-geojson",
+                    "layout": {
+                        "visibility": "visible"
+                    },
+                    "filter": ["all", ["==", "$type", "Polygon"]],
+                    "paint": {
+                        "fill-color": [
+                            "case",
+                            ["==", ["get", "type"], "subproject"],
+                            "rgba(48, 228, 252, 0.5)",
+                            "transparent"
+                        ]
+                    }
+                },
+                {
+                    "id": "subproject-projects-line",
+                    "type": "line",
+                    "source": "subproject-geojson",
+                    "layout": {
+                        "visibility": "visible"
+                    },
+                    "paint": {
+                        "line-width": [
+                            "case",
+                            ["==", ["get", "type"], "project"],
+                            6,
+                            2
+                        ],
+                        "line-color": [
+                            "case",
+                            ["==", ["get", "type"], "project"],
+                            "rgba(48, 111, 252, 0.5)",
+                            "rgba(48, 228, 252, 0.9)"
+                        ]
+                    }
+                }
+            ];
+            
+            params.sources = {
+                'subproject-geojson': {
+                    'type': 'geojson',
+                    'data': projectGeoJSON
+                }
+            };
+            
+            MapWidgetViewModel.apply(this, [params]);
+            
+            self.map.subscribe(function(map) {
+                if (map && projectGeoJSON.features.length > 0) {
+                    var bounds = new mapboxgl.LngLatBounds(geojsonExtent(projectGeoJSON));
+                    var tr =  map.transform;
+                    var nw = tr.project(bounds.getNorthWest());
+                    var se = tr.project(bounds.getSouthEast());
+                    var size = se.sub(nw);
+                    var scaleX = (tr.width - 80) / size.x;
+                    var scaleY = (tr.height - 80) / size.y;
+                    map.jumpTo({
+                        center: tr.unproject(nw.add(se).div(2)),
+                        zoom: Math.min(tr.scaleZoom(tr.scale * Math.min(scaleX, scaleY)), 17)
                     });
                 }
-            }
-            MapWidgetViewModel.apply(this, [params]);
+            });
         },
         template: { require: 'text!widget-templates/map' }
     });
