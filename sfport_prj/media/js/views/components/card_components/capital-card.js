@@ -15,7 +15,9 @@ define([
             this.createParentAndChild = function (parenttile, childcard) {
                 if (parenttile.tileid === "") {
                     var callback = function(){childcard.selected(true);}
-                    self.form.saveTile(parenttile, callback);
+                    parenttile.save(function() {
+                        return;
+                    }, callback);
                 }
             };
 
