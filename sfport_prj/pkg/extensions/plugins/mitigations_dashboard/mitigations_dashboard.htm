@@ -1,0 +1,41 @@
+{% load i18n %}
+
+<div class="pad-all">
+    <div class="resource-grid-title">{% trans "Mitigations Review" %}</div>
+    
+   <div style="display: inline-flex" class="resource-search-container">
+       <div style="width: 300px">
+       <!--ko if: projects() -->
+       <input style="display:inline-block;" data-bind="select2Query: {select2Config:projectSelect2Config}"></input>
+       <!-- /ko -->
+       </div>
+        <div style="width:300px">
+        <input style="display:inline-block;" data-bind="select2: {select2Config:subProjectSelect2Config}"></input>
+        </div>
+    </div>
+    
+    <div class="recent-additions-container">
+    <!-- ko if: dataReady -->
+    <div>Toggle column: <br>
+        <button data-bind="click: function() { toggle(0) }, style:{'color': columnVis[0]() === true ? '#222' : '#999'}">{% trans "MMRP" %}</button>
+        <button data-bind="click: function() { toggle(1) }, style:{'color': columnVis[1]() === true ? '#222' : '#999'}">{% trans "Mitigation Status" %}</button>
+        <button data-bind="click: function() { toggle(2) }, style:{'color': columnVis[2]() === true ? '#222' : '#999'}">{% trans "Implementation Begin Date" %}</button>
+        <button data-bind="click: function() { toggle(3) }, style:{'color': columnVis[3]() === true ? '#222' : '#999'}">{% trans "Implementation End Date" %}</button>
+        <button data-bind="click: function() { toggle(4) }, style:{'color': columnVis[4]() === true ? '#222' : '#999'}">{% trans "MMRP Comments" %}</button>
+        <button data-bind="click: function() { toggle(5) }, style:{'color': columnVis[5]() === true ? '#222' : '#999'}">{% trans "Implementation Responsibility" %}</button>
+    </div> <br>
+      <table id="datatable" data-bind="datatable: tableConfig" class="table table-striped table-bordered" cellspacing="0" width="100%">
+          <thead>
+              <tr>
+                  <th>{% trans "MMRP" %}</th>
+                  <th>{% trans "Mitigation Status" %}</th>
+                  <th>{% trans "Implementation Begin Date" %}</th>
+                  <th>{% trans "Implementation End Date" %}</th>
+                  <th>{% trans "MMRP Comments" %}</th>
+                  <th>{% trans "Implementation Responsibility" %}</th>
+              </tr>
+          </thead>
+      </table>
+    <!-- /ko -->
+    </div>
+</div>

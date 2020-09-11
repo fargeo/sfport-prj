@@ -1,0 +1,10 @@
+{
+    "pluginid": "00862233-43b3-4dff-88c2-58a09561e493",
+    "name": "Mitigations Dashboard",
+    "icon": "fa fa-clipboard",
+    "component": "views/components/plugins/mitigations_dashboard",
+    "componentname": "mitigations-dashboard-plugin",
+    "config": {},
+    "slug": "mitigations-dashboard",
+    "sortorder": 0
+}
